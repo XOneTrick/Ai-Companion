@@ -1,7 +1,6 @@
 import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 import { Configuration, OpenAIApi } from "openai";
-import { MessageSquareIcon } from 'lucide-react';
 
 const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY });
 
