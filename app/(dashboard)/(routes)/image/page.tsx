@@ -1,6 +1,3 @@
-//TODO: ERROR 401 on submit of image, please fox
-
-
 "use client";
 
 import axios from "axios";
@@ -22,7 +19,7 @@ import { Empty } from "@/components/empty";
 import { Loader } from "@/components/loader";
 import Image from "next/image";
 
-import { cn } from "@/lib/utils";
+// import { cn } from "@/lib/utils";
 import { Card, CardFooter } from "@/components/ui/card";
 import toast from "react-hot-toast";
 
