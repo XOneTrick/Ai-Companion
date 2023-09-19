@@ -3,6 +3,8 @@
 import TypewriterComponent from "typewriter-effect";
 import Link from "next/link";
 import { useAuth } from "@clerk/nextjs";
+import Lottie from "lottie-react";
+import animationData from "../public/infiniteAnimation.json"
 
 import { Button } from "@/components/ui/button";
 
@@ -41,6 +43,9 @@ export const LandingHero = () => {
       <div className="text-zinc-400 text-xs md:text-sm font-normal">
         No credit card required.
       </div>
+      {/* <Lottie
+        animationData={animationData}
+        className="text-center h-48 w-48 " /> */}
     </div>
   );
 };
